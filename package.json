@@ -1,0 +1,15 @@
+{
+	"name": "wtfims",
+	"main": "server.js",
+	"description": "What the fuck is my stack?",
+	"dependencies": {
+		"body-parser": "1.0.1",
+		"express": "4.0",
+		"jade": "*",
+		"stylus": "*",
+		"nib": "*"
+	},
+	"engines": {
+		"node": "0.10.33"
+	}
+}
