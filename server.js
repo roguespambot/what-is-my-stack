@@ -22,10 +22,10 @@ app.use(stylus.middleware(
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(req, res) {
-	var backEndArray = ["C", "C++", "Golang", "Python", "Ruby on Rails", "Node.js", "Express", "Flatiron", "Taco", "Sails", "Java", "PHP", "Perl", "Erlang", "D", "Xhp", "ASP.NET", "Scala", "Smalltalk", "COBOL on Wheelchair", "FORTRAN"]
-	var frontEndArray = ["AngularJS", "ERB", "HAML", "Jade", "Backbone.js", "Thorax", "Batman", "Meteor", "React", "Flight", "Ember.js", "Knockout", "Singool.js", "Maria", "Rivets.js", "Synapse", "Objective-C", "Swift"]
+	var backEndArray = ["C", "C++", "Haskell", "ColdFusion", "Golang", "MATLAB Web Server", "Flask", "Django", "Python", "Ruby on Rails", "Node.js", "Express", "Flatiron", "Taco", "Sails", "Java", "PHP", "Perl", "Erlang", "D", "Xhp", "ASP.NET", "Scala", "Smalltalk", "COBOL on Wheelchair", "FORTRAN"]
+	var frontEndArray = ["HTML", "AngularJS", "ERB", "HAML", "Jade", "Backbone.js", "Thorax", "Batman", "Meteor", "React", "Flight", "Ember.js", "Knockout", "Singool.js", "Maria", "Rivets.js", "Synapse", "Objective-C", "Swift"]
 	var databaseArray = ["PostgreSQL", "MySQL", "MS Access", "Oracle Express", "SQLite", "MSSQL", "NoSQL"]
-	var cssThemesArray = ["Bootstrap", "Jumpstart", "Darkstrap", "jQuery Mobile Bootstrap", "SOME KIND OF WORDPRESS SHIT", "CSS3 Microsoft Modern Buttons", "BootMetro", "Cosmo", "Phonegap"]
+	var cssThemesArray = ["Bootstrap", "Jumpstart", "Darkstrap", "jQuery Mobile Bootstrap", "SOME KIND OF WORDPRESS SHIT", "CSS3 Microsoft Modern Buttons", "BootMetro", "Cosmo", "Phonegap", "Stylus", "Sass", "LESS"]
 
 	var stack = {
 		backEnd: backEndArray[Math.floor(Math.random() * backEndArray.length)].toUpperCase(),

@@ -166,6 +166,12 @@ header {
   padding: 0px 10px;
   margin-bottom: 10px;
 }
+.sidebar .widget button {
+  font-family: 'Quicksand';
+  font-size: 20px;
+  color: #fff;
+  background-color: #fa5b4d;
+}
 p {
   line-height: 1.8;
 }
